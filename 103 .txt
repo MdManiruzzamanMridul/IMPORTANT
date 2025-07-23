@@ -1,0 +1,28 @@
+generate a case solving with divisibility where 5 student from a 1-30 roll in a class, one of them have given a proxy for another student. now 4 of them is lying and there's an imposter for the teacher who will only tell the truth, but he wont directly say who is lying
+
+
+The truthful student’s roll number is the smallest possible value that satisfies all previous clues
+
+In a class of 30 students (roll numbers 1-30), 5 students are involved in a proxy situation:
+
+One student has given a proxy for another student (i.e., signed attendance on their behalf).
+
+Among these 5 students:
+
+4 are lying about their involvement.
+
+1 is telling the truth (the truthful student).
+
+There is an imposter among these 5 students (not the teacher). The imposter:
+
+Always tells the truth (unlike the other 4 liars).
+
+Won’t directly say who is lying but provides clues.
+
+The imposter gives the following clues:
+
+"The sum of our 5 roll numbers is divisible by 5."
+
+"The sum of the 4 lying students' roll numbers is divisible by 4."
+
+"The truthful student’s roll number is greater than the proxy giver’s roll number."
